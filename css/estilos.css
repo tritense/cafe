@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.movil {
+    display: none;
+}
+
+.pagina {
+    width: 80%;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background: grey;
+}
+
+.ordenador {
+    background: #2a2929;
+    padding: 0.3% 0.7%;
+    margin: 0;
+    /*position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline-block;
+    border-right: 1px solid white;
+    padding: 0.5% 1%;
+}
+
+li:hover {
+    text-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+}
+
+.naveg {
+    text-decoration: none;
+    color: white;
+}
+
+
+.arriba {
+    margin: 6% 1%;
+    margin-bottom: 2%;
+    background: white;
+    padding: 2%;
+}
+
+.arriba:hover {
+    box-shadow: 2px 2px 5px #4e4d4d, -2px -2px 5px #4e4d4d;
+}
+
+.dos {
+    width: 50%;
+    float: left;
+    background: white;
+}
+
+.izquierda {
+    text-align: center;
+}
+
+.titulo h1,
+.titulo h2 {
+    padding-bottom: 5%;
+}
+
+.titulo h1 {
+    font-size: 40px;
+}
+
+.parrafo {
+    width: 55%;
+    margin: 0 auto;
+    line-height: 180%;
+}
+
+.arriba img {
+    width: 80%;
+    margin: 10%;
+}
+
+.abajo {
+    margin: 0 auto;
+    margin-bottom: 2%;
+}
+
+.tres {
+    width: 32%;
+    float: left;
+    margin-left: 1%;
+    background: white;
+    text-align: center;
+
+}
+
+.tres:hover {
+    box-shadow: 2px 2px 5px #4e4d4d inset, -2px -2px 5px #4e4d4d inset;
+    ;
+}
+
+.tres img {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.tres h3 {
+    text-align: left;
+}
+
+.tres p {
+    padding: 0 3%;
+}
+
+.nombre {
+    padding: 3%;
+}
+
+.limpiar_float {
+    clear: both;
+    text-align: center;
+}
+
+@media screen and (max-width:820px) {
+    .pagina {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        background: red;
+    }
+
+    .ordenador {
+        display: none;
+    }
+
+    .movil {
+        display: contents;
+        background: #2a2929;
+        padding: 0.3% 0.7%;
+        margin: 0;
+        /*position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;*/
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .material-icons{
+        text-align: right;
+        color: aliceblue !important;
+    }
+
+    li {
+        display: inline-block;
+        border-right: 1px solid white;
+        padding: 0.5% 1%;
+    }
+
+    li:hover {
+        text-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+    }
+
+    /*.naveg {
+        text-decoration: none;
+        color: white;
+    }*/
+
+
+    .arriba {
+        margin: 10% 1%;
+        margin-bottom: 2%;
+        background: white;
+        padding: 2%;
+    }
+
+    .arriba:hover {
+        box-shadow: 2px 2px 5px #4e4d4d, -2px -2px 5px #4e4d4d;
+    }
+
+    .dos {
+        width: 100%;
+        /*float: left;*/
+        background: white;
+    }
+
+    .izquierda {
+        text-align: center;
+    }
+
+    .titulo h1,
+    .titulo h2 {
+        padding-bottom: 5%;
+    }
+
+    .titulo h1 {
+        font-size: 40px;
+    }
+
+    .parrafo {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 180%;
+    }
+
+    .arriba img {
+        width: 80%;
+        margin: 10%;
+    }
+
+    .abajo {
+        margin: 0 auto;
+        margin-bottom: 2%;
+        width: 98%;
+    }
+
+    .tres {
+        width: 100%;
+        /*float: left;*/
+        /*margin-left: 1%;*/
+        background: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+
+    }
+
+    .tres:hover {
+        box-shadow: 2px 2px 5px #4e4d4d inset, -2px -2px 5px #4e4d4d inset;
+    }
+
+    .tres img {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .tres h3 {
+        text-align: center;
+    }
+
+    .tres p {
+        padding: 0 3%;
+    }
+
+    .nombre {
+        text-align: center;
+        /*padding: 3%;*/
+    }
+
+    .limpiar_float {
+        clear: both;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .pagina {
+        width: 100%;
+        margin: 0 auto;
+        border: 1px solid transparent;
+        background: green;
+    }
+
+    .ordenador {
+        display: none;
+    }
+
+    .movil {
+        display: contents;
+        background: #2a2929;
+        padding: 0.3% 0.7%;
+        margin: 0;
+        /*position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;*/
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    
+    .material-icons{
+        color: aliceblue !important;
+        text-align: right;
+    }
+
+    /*li {
+        display: inline-block;
+        border-right: 1px solid white;
+        padding: 0.5% 1%;
+    }
+
+    li:hover {
+        text-shadow: 2px 2px 2px grey, -2px -2px 2px grey;
+    }
+
+    .naveg {
+        text-decoration: none;
+        color: white;
+    }*/
+
+
+    .arriba {
+        margin: 18% 5%;
+        margin-bottom: 2%;
+        background: white;
+        padding: 2%;
+    }
+
+    .arriba:hover {
+        box-shadow: 2px 2px 5px #4e4d4d, -2px -2px 5px #4e4d4d;
+    }
+
+    .dos {
+        width: 100%;
+        /*float: left;*/
+        background: white;
+    }
+
+    .izquierda {
+        text-align: center;
+    }
+
+    .titulo h1,
+    .titulo h2 {
+        padding-bottom: 5%;
+    }
+
+    .titulo h1 {
+        font-size: 40px;
+    }
+
+    .parrafo {
+        width: 100%;
+        margin: 0 auto;
+        line-height: 180%;
+    }
+
+    .arriba img {
+        width: 80%;
+        margin: 10%;
+    }
+
+    .abajo {
+        margin: 0 auto;
+        margin-bottom: 2%;
+        width: 90%;
+    }
+
+    .tres {
+        width: 100%;
+        /*float: left;*/
+        /*margin-left: 1%;*/
+        background: white;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+
+    }
+
+    .tres:hover {
+        box-shadow: 2px 2px 5px #4e4d4d inset, -2px -2px 5px #4e4d4d inset;
+        ;
+    }
+
+    .tres img {
+        width: 50%;
+        margin: 0 auto;
+
+    }
+
+    .tres h3 {
+        text-align: center;
+    }
+
+    .tres p {
+        padding: 0 3%;
+    }
+
+    .nombre {
+        text-align: center;
+        /*padding: 3%;*/
+    }
+
+    .limpiar_float {
+        clear: both;
+    }
+}
